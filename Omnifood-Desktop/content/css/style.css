@@ -70,7 +70,7 @@ html {
 }
 
 body {
-    font-family: 'Rubik',sans-serif;
+    font-family: 'Rubik', sans-serif;
     line-height: 1;
     font-weight: 400;
     color: #555;
@@ -133,7 +133,7 @@ body {
 /* HEADER */
 /* ******************************************************* */
 
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -144,8 +144,47 @@ body {
     padding: 0 4.8rem;
 }
 
-.logo{
+.logo {
     height: 2.2rem;
+}
+
+/* ******************************************************* */
+/* NAVGATION */
+/* ******************************************************* */
+
+.main-nav-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 1.8rem;
+    transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+    color: #cf711f;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+    padding: 1.2rem 2.4rem;
+    border-radius: 9px;
+    color: #fff;
+    background-color: #e67e22;
+}
+
+.main-nav-link.nav-cta:host,
+.main-nav-link.nav-cta:active {
+    background-color: #cf711f;
 }
 
 /* ******************************************************* */
@@ -177,25 +216,26 @@ body {
 
 
 
-.margin-right-sm{
+.margin-right-sm {
     margin-right: 1.6rem !important;
 }
+
 .hero-img {
     width: 100%;
 }
 
-.delivered-meals{
+.delivered-meals {
     display: flex;
     margin-top: 8rem;
     align-items: center;
     gap: 1.6rem;
 }
 
-.delivered-imgs{
+.delivered-imgs {
     display: flex;
 }
 
-.delivered-imgs img{
+.delivered-imgs img {
     height: 4.8rem;
     width: 4.8rem;
     border-radius: 50%;
@@ -203,16 +243,16 @@ body {
     border: 3px solid #fdf2e9;
 }
 
-.delivered-imgs img:last-child{
+.delivered-imgs img:last-child {
     margin: 0;
 }
 
-.delivered-text{
+.delivered-text {
     font-size: 1.8rem;
     font-weight: 600;
 }
 
-.delivered-text span{
+.delivered-text span {
     color: #cf711f;
     font-weight: 700;
 }
