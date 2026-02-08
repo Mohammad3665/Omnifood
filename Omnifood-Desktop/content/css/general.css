@@ -105,7 +105,7 @@ body {
     grid-template-columns: repeat(4, 1fr);
 }
 
-.grid--center-v{
+.grid--center-v {
     align-items: center;
 }
 
@@ -130,7 +130,7 @@ body {
     margin-bottom: 9.6rem
 }
 
-.heading-tertiary{
+.heading-tertiary {
     font-size: 3.6rem;
     line-height: 1.2;
     margin-bottom: 3.2rem;
@@ -155,7 +155,7 @@ body {
     text-decoration: none;
     border-radius: 9px;
     font-weight: 600;
-    transition: background-color 0.3s;
+    transition: all 0.3s;
 }
 
 .btn--full:link,
@@ -185,7 +185,35 @@ body {
     box-shadow: inset 0 0 0 3px #fff;
 }
 
+.link:link,
+.link:visited{
+    display: inline-block;
+    text-decoration: none;
+    color: #e67e22;
+    padding-bottom: 2px;
+    border-bottom: 1px solid currentColor;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.link:hover,
+.link:active{
+    color: #cf711f;
+    border-bottom: 1px solid transparent;
+}
 
 .margin-right-sm {
     margin-right: 1.6rem !important;
+}
+
+.margin-bottom-md{
+    margin-bottom: 4.8rem !important;
+}
+
+.center-text{
+    text-align: center;
+}
+
+strong{
+    font-weight: 500;
 }
