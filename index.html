@@ -571,6 +571,7 @@
         $(document).ready(function () {
             $('.select-where').select2();
 
+            // removing the hover when mouse leaves the area
             $(document).on('mouseleave', '.select2-results__option', function () {
                 $(this).removeClass('select2-results__option--highlighted');
             });
