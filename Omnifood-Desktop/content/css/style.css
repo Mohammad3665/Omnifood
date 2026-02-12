@@ -441,7 +441,7 @@
     margin-top: 4.8rem;
 }
 
-.plan-details{
+.plan-details {
     font-size: 1.6rem;
     line-height: 1.6;
     text-align: center;
@@ -467,4 +467,150 @@
 .feature-text {
     font-size: 1.8rem;
     font-size: 1.8;
+}
+
+/* ******************************************************* */
+/* CTA SECTION */
+/* ******************************************************* */
+
+.section-cta {
+    padding: 9.6rem 0;
+}
+
+.cta {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* background-color: #e67e22; */
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.015);
+    background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+    overflow: hidden;
+    border-radius: 11px;
+}
+
+.cta-text-box {
+    padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+    color: #45260a;
+}
+
+.cta .heading-secondary {
+    color: #45260a;
+    margin-bottom: 3.2rem;
+}
+
+.cta-text {
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-bottom: 4.8rem;
+}
+
+.cta-img-box {
+    background-image: linear-gradient(to right bottom,
+            rgba(235, 151, 78, 0.35),
+            rgba(230, 125, 34, 0.35)),
+        url('../img/eating.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.cta-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3.2rem;
+    row-gap: 2.4rem;
+}
+
+.cta-form label {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+}
+
+.cta-form input {
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.8rem;
+    font-family: inherit;
+    border: none;
+    background-color: #fdf2e9;
+    border-radius: 9px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    color: #333;
+    transition: all 0.3s;
+}
+
+/* same .select-where */
+.select2 {
+    width: 100% !important;
+    font-size: 1.6rem;
+}
+
+.cta-form input::placeholder {
+    color: #aaa;
+}
+
+/* ========================= */
+/* LIST BOX */
+/* ========================= */
+
+/* HOVER OPTION */
+.select2-container--default .select2-results__option--highlighted {
+    background-color: #eb984e !important;
+    color: #fdf2e9 !important;
+}
+
+/* SELECTED OPTION */
+.select2-container--default .select2-results__option[aria-selected="true"] {
+    background-color: #e67e22 !important;
+    color: #fdf2e9 !important;
+}
+
+/* HOVER SELECTED  OPTION*/
+.select2-container--default .select2-results__option--highlighted[aria-selected="true"] {
+    background-color: #cf711f !important;
+    color: #fdf2e9 !important;
+}
+
+/* ALL OF OPTIONS */
+.select2-container--default .select2-results__option {
+    padding: 1.2rem !important;
+    font-size: 1.6rem !important;
+    border-radius: 9px !important;
+
+}
+
+/* SEARCH BOX */
+.select2-container--default .select2-search--dropdown .select2-search__field {
+    border-radius: 4px !important;
+    border: 1px solid #aaa !important;
+}
+
+/* DROPDOWN SELF */
+.select2-container--default .select2-dropdown {
+    background-color: #fdf2e9 !important;
+    padding: 0.8rem !important;
+    border: none !important;
+    border-top-left-radius: 9px !important;
+    border-top-right-radius: 9px !important;
+}
+
+/* ARROW ICON */
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 25% !important;
+}
+
+/* SELECT BOX */
+.select2-container--default .select2-selection--single {
+    height: auto !important;
+    /* The padding of the select box should always be 0.2rem less than the text box so that they are the same size. */
+    padding: 1rem !important;
+    font-size: 1.8rem !important;
+    border-radius: 9px;
+    border: none !important;
+    background-color: #fdf2e9 !important;
+}
+
+.cta *:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
 }
