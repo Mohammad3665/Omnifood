@@ -370,26 +370,26 @@
     padding: 9.6rem 0;
 }
 
-.pricing-plan{
+.pricing-plan {
     border-radius: 11px;
     padding: 4.8rem;
     width: 75%;
 }
 
-.pricing-plan--starter{
+.pricing-plan--starter {
     justify-self: end;
     border: 2px solid #fdf2e9;
     padding: 4.6rem;
 }
 
-.pricing-plan--complete{
+.pricing-plan--complete {
     background-color: #fdf2e9;
     padding: 4.8rem;
     position: relative;
     overflow: hidden;
 }
 
-.pricing-plan--complete::after{
+.pricing-plan--complete::after {
     content: "Best value";
     position: absolute;
     top: 6%;
@@ -424,7 +424,7 @@
     color: #333;
 }
 
-.plan-price span{
+.plan-price span {
     font-size: 3rem;
     font-weight: 500;
     color: #333;
@@ -436,7 +436,35 @@
     line-height: 1.6;
 }
 
-.plan-sign-up{
+.plan-sign-up {
     text-align: center;
     margin-top: 4.8rem;
+}
+
+.plan-details{
+    font-size: 1.6rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.feature-icon {
+    color: #e67e22;
+    width: 3.2rem;
+    height: 3.2rem;
+    background-color: #fdf2e9;
+    margin-bottom: 3.2rem;
+    padding: 1.6rem;
+    border-radius: 50%;
+}
+
+.feature-title {
+    font-size: 2.4rem;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 1.6rem;
+}
+
+.feature-text {
+    font-size: 1.8rem;
+    font-size: 1.8;
 }
