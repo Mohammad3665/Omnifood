@@ -114,6 +114,10 @@ body {
     grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--5-cols {
+    grid-template-columns: repeat(5, 1fr);
+}
+
 .grid--center-v {
     align-items: center;
 }
@@ -268,4 +272,8 @@ body {
 
 strong {
     font-weight: 500;
+}
+
+.logo {
+    height: 2.2rem;
 }
